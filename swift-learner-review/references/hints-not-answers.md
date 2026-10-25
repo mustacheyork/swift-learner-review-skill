@@ -25,5 +25,15 @@ A review that pastes the solution ends the learning. A hint that points at the m
 **Instead of** "This should be a `struct`":
 > `name` `price` `count` の 3 つが毎回セットで渡されています。セットでまとまって動くものに名前を付ける仕組みを、次の回で扱います。今の課題ではこのままで OK です。
 
+## When the needed piece has not been taught
+Some criteria need an API the learner has not seen yet (number formatting, date formatting, a collection method). A question alone becomes a dead end. Do this instead:
+
+1. Say it is new: 「これはまだ教材に出てきていない書き方です」 / "This one hasn't come up in the course yet."
+2. Name what to search for — the concept and, if useful, the API name: 「数値を桁数を指定して文字列にする方法（`formatted` や `String(format:)`）」
+3. Point to where it is explained: the official documentation, or the chapter the assignment refers to.
+4. Leave the actual line for them to write.
+
+Naming the tool is a hint. Writing the line is the answer.
+
 ## If the learner looked at the reference solution first
 Say nothing judgmental. Ask them to explain one line of it in their own words — that is where the learning resumes.

@@ -35,6 +35,14 @@ Claude Code plugin:
 /plugin install swift-learner-review@swift-learner-review-skill
 ```
 
+`npx skills add` installs into the **current project** by default. Add `-g` to make it available in every project:
+
+```bash
+npx skills add https://github.com/mustacheyork/swift-learner-review-skill --skill swift-learner-review -g
+```
+
+> 💡 If you run the command from inside an agent (for example `! npx skills add …` in Claude Code), it installs non-interactively into that project. Run it in your own terminal, or add `-g`, for a global install. Restart the agent session afterwards so the skill is loaded.
+
 Or copy `swift-learner-review/` into `~/.claude/skills/` (Claude Code) or your agent's skills folder.
 
 ## Use / 使い方

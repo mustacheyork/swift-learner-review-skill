@@ -37,6 +37,8 @@ Open `pitfalls.md` for the topic and check each listed mistake. Also check the g
 ### 5. Write hints, not answers
 For each improvement, give the *idea* and a *question* that leads to it. If you show code, use the Before/After form with the learner's actual code on the left. Never paste a complete solution to the assignment. See `hints-not-answers.md`.
 
+**When the fix needs something not taught yet.** If meeting a criterion requires an API or syntax the learner has probably not met at this stage (for example, formatting a `Double` to one decimal place), do not leave them with "figure it out". Say plainly that it is new, name what to search for (the concept or the API name, e.g. "数値を桁数を指定して文字列にする方法 / `formatted`"), and point to where it is usually explained (the official docs or the relevant chapter if the assignment mentions one). Naming the thing is not giving the answer; a blank wall is not teaching.
+
 ### 6. Write the review
 Use the template in `feedback-format.md`: ✅ criteria / 🌟 good points / 💡 hints / 📚 next step. Then re-read it against `tone.md` and remove any classroom voice.
 
@@ -52,4 +54,5 @@ Say clearly whether the assignment is **cleared** (all criteria met) or **needs 
 - Never mention tools or concepts from a later stage (SwiftLint, MVVM, actors…) to a `beginner`.
 - Talk to the learner as a capable adult peer. No "let's do our best", no "make it a habit", no "from now on".
 - Be specific: line numbers, identifiers, the exact expression. Abstract advice does not teach.
+- Never leave a learner stuck on something the course has not taught. Say it is new and name what to look up.
 - If the code does not compile, say so first and locate the error before anything else.
