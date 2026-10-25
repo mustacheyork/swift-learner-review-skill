@@ -1,0 +1,11 @@
+{
+  "name": "swift-learner-review-skill",
+  "owner": { "name": "Kanako Kobayashi" },
+  "plugins": [
+    {
+      "name": "swift-learner-review",
+      "source": "./swift-learner-review",
+      "description": "Teaching-grade code review for Swift / SwiftUI beginners: goal check, evidence-based praise, hints not answers, adult tone."
+    }
+  ]
+}

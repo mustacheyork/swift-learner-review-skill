@@ -1,0 +1,7 @@
+{
+  "name": "swift-learner-review",
+  "version": "0.1.0",
+  "description": "Teaching-grade code review for Swift / SwiftUI beginners: goal check, evidence-based praise, hints not answers, adult tone.",
+  "author": { "name": "Kanako Kobayashi" },
+  "license": "MIT"
+}
